@@ -3,5 +3,8 @@
     <file>vegeta.jpg</file>
     <file>broly.jpg</file>
   </qresource>
-  <qresource prefix="Objetos"/>
+  <qresource prefix="Intro">
+    <file>FI_LOGO.png</file>
+    <file>UAT-Logotipo202.png</file>
+  </qresource>
 </RCC>
