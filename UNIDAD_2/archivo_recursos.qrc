@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="Principal">
+    <file>vegeta.jpg</file>
+    <file>broly.jpg</file>
+  </qresource>
+  <qresource prefix="Objetos"/>
+</RCC>
