@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>855</width>
+    <height>701</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>140</y>
+      <width>381</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Buscar Pares</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>231</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="archivo_recursos.qrc">:/Intro/UAT-Logotipo202.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>10</y>
+      <width>231</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="archivo_recursos.qrc">:/Intro/FI_LOGO.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_imagenBuscar">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>200</y>
+      <width>241</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="archivo_recursos.qrc">:/Intro/UAT-Logotipo202.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_validar">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>530</y>
+      <width>371</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>VALIDAR</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_imageUsuario">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>190</y>
+      <width>241</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="archivo_recursos.qrc">:/Intro/UAT-Logotipo202.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QSlider" name="sel_imagen_usuario">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>480</y>
+      <width>301</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>855</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="archivo_recursos.qrc"/>
+ </resources>
+ <connections/>
+</ui>
