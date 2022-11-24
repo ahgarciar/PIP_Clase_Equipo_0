@@ -12,3 +12,5 @@ print(contenido)
 datos = [int(i) for i in contenido]
 
 print(datos)
+
+prom = sum(datos)/len(datos)

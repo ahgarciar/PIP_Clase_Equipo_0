@@ -1,0 +1,37 @@
+
+
+cd P3_Graficacion
+/opt/homebrew/bin/
+pyuic5 Plantilla_Grafica.ui -o Plantilla_Grafica.py
+
+####################################################################################
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FiguraCanvas
+from matplotlib.backends.backend_qt5agg import NavigationToolbar2QT as BarraNavegacion
+####################################################################################
+
+
+
+
+        ####################################################################################
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.figure = plt.figure(figsize=(15, 5))
+        self.canvas = FiguraCanvas(self.figure)
+
+        self.ax = self.figure.add_subplot(111)
+        # para referir al mismo axes
+
+        self.toolbar = BarraNavegacion(self.canvas, self)
+
+        self.verticalLayout.addWidget(self.canvas)
+        self.verticalLayout.addWidget(self.toolbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+        ####################################################################################
+
+
+
+self.txt_polinomio.setText(_translate("MainWindow", "2x^2+4x+3"))
